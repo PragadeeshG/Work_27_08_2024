@@ -1,0 +1,17 @@
+create table if not exists reinforcement_learning_chart_tree(
+reinforcement_learning_id Integer not null,
+learning_path_effective_date varchar(255) null,
+learning_path_code Integer null,
+learning_path_description varchar(255) null,
+path_route1 varchar(255) null,
+path_route1_desc varchar(255) null,
+path_route2 varchar(255) null,
+path_route2_desc varchar(255) null,
+path_route3 varchar(255) null,
+path_route3_desc varchar(255) null,
+path_route4 varchar(255) null,
+path_route4_desc varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint reinforcement_learning_chart_tree_pk primary key(reinforcement_learning_id));
